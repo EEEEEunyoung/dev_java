@@ -10,6 +10,8 @@ public class String1 {
     // insert here
     // s1과 s2의 주소번지는 같니? 참 혹은 거짓 선택하기
     // 그리고 이유에 대해 옆사람과 토의해보세요
+    // String 클래스는 new를 사용하지 않고 객체를 생성하면 이미 같은 것이 존재 할 때
+    // 기존에 값을 참조한다.
     System.out.println(s1 == s2);
     System.out.println(s1 == s3);
     System.out.println(s1 == s4);
