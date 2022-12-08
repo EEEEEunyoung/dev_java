@@ -1,0 +1,30 @@
+이벤트 처리 루틴 
+1. 이벤트 소스를 지원하는 이벤트 처리 리스너를 선택한다.
+JButton, JTextField(엔터치면) - >  ActionListener
+ class A implements ActionListener{}
+ 클래스 A 는 이벤트핸들러 클래스이다. 
+ ActionListener 의 구현체 클래스이다. 
+ ActionListener에 정의 된 추상메소드 actionPerformed를 
+ 오버라이딩 해야 한다. - 강제사항 - 명세서
+ 
+ 
+ 2. 오버라이딩해야함 - 재정의 
+
+3.  이벤트 소스와 이벤트 핸들러 클래스를 연결 - 그래야 callback 이 일어남.
+ 
+
+
+
+ 
+ */
+
+
+
+
+
+
+
+
+
+//이벤트 핸들러 클래스    - 이벤트가 감지됐을때 액션펄폼 호출이 일어남 
+//버튼 감지는 JVM 이 한다. 
