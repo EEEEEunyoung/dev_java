@@ -6,6 +6,111 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ButtonArray2",
+      "request": "launch",
+      "mainClass": "dev_java.YaguSusjaGame.ButtonArray2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ButtonArray",
+      "request": "launch",
+      "mainClass": "dev_java.YaguSusjaGame.ButtonArray",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Yagu1",
+      "request": "launch",
+      "mainClass": "dev_java.YaguSusjaGame.Yagu1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoDimentionalArray1_3",
+      "request": "launch",
+      "mainClass": "dev_java.ch3.TwoDimentionalArray1_3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoDimentionalArray3_4",
+      "request": "launch",
+      "mainClass": "dev_java.ch3.TwoDimentionalArray3_4",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Buttons1",
+      "request": "launch",
+      "mainClass": "dev_java.ch3.Buttons1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoDimentionalArray3_3",
+      "request": "launch",
+      "mainClass": "dev_java.ch3.TwoDimentionalArray3_3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoDimentionalArray3_2",
+      "request": "launch",
+      "mainClass": "dev_java.ch3.TwoDimentionalArray3_2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoDimentionalArray_3",
+      "request": "launch",
+      "mainClass": "dev_java.ch3.TwoDimentionalArray_3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoDimentionalArray_2",
+      "request": "launch",
+      "mainClass": "dev_java.ch3.TwoDimentionalArray_2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoDimentionalArray",
+      "request": "launch",
+      "mainClass": "dev_java.ch3.TwoDimentionalArray",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test4",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.test1208.Test4",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test3_array",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.test1208.Test3_array",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.Test",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test6",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.Test6",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch Nansu",
       "request": "launch",
       "mainClass": "dev_java.ch3.Nansu",

@@ -1,6 +1,6 @@
-package dev_java.EunYoung;
+package dev_java.EunYoung.test1208;
 
-public class Test1 {
+public class Test2_while {
   public static void main(String[] args) {
     // int i = 1;
     // while (i <= 20) {
@@ -13,9 +13,9 @@ public class Test1 {
 
     for (int i = 1; i <= 20; i++) {
       if (i % 5 == 0) {
-        System.out.println(i + "는 5의 배수 입니다.");
+        System.out.println(i + " : 5의 배수 입니다.");
       } else {
-        System.out.println(i + "는 5의배수가 아닙니다.");
+        System.out.println(i + " : 5의배수가 아닙니다.");
       }
     }
 
@@ -39,4 +39,4 @@ public class Test1 {
 // }} // end of switch
 // }
 
-// while 문 break ; 반복문 5 의 배수인지 아닌지
+// while 문 break; // 반복문 5 의 배수인지 아닌지

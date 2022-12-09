@@ -1,6 +1,6 @@
-package dev_java.EunYoung;
+package dev_java.EunYoung.test1208;
 
-public class Test2 {
+public class Test3_array {
   public static void main(String[] args) {
     int[] arr = new int[4];
 

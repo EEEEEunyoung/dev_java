@@ -34,7 +34,7 @@ public class RandomGameView implements ActionListener {
     jtf_input.requestFocus();
     jtf_input.addActionListener(this);
     jta_display.setEditable(false);
-    jf.add("South", jtf_input);
+    jf.add("ffSouth", jtf_input);
     jf.add("Center", jsp_display);
     jf.setSize(400, 300);
     jf.setVisible(true);
