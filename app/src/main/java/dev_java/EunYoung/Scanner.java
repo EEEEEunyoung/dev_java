@@ -1,8 +1,12 @@
 package dev_java.EunYoung;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class Scanner {
+  public Scanner(InputStream in) {
+  }
+
   public static void main(String[] args) {
     int age;
     char a;
@@ -24,5 +28,9 @@ public class Scanner {
 
   public String nextLine() {
     return null;
+  }
+
+  public int nextInt(InputStream in) {
+    return 0;
   }
 }

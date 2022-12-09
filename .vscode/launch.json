@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch pppp6",
+      "request": "launch",
+      "mainClass": "dev_java.pppp.pppp6",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch pppp4",
+      "request": "launch",
+      "mainClass": "dev_java.pppp.pppp4",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch pppp3",
+      "request": "launch",
+      "mainClass": "dev_java.pppp.pppp3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch pppp2",
+      "request": "launch",
+      "mainClass": "dev_java.pppp.pppp2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch pppp1",
+      "request": "launch",
+      "mainClass": "dev_java.pppp.pppp1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch ButtonArray2",
       "request": "launch",
       "mainClass": "dev_java.YaguSusjaGame.ButtonArray2",

@@ -15,7 +15,7 @@ import javax.swing.JTextField;
 
 public class ButtonArray2 implements ActionListener {
     // 선언부
-    AccountSample action = new AccountSample();
+    AccountSample action = new AccountSample(null);
     JFrame jf = new JFrame();// setSize(400,300); 가로세로크기지정 setVisible(true):윈도우창에 활성화하기
     JPanel jp_center = new JPanel();
     JTextArea jta_display = new JTextArea(10, 20);
@@ -109,10 +109,6 @@ public class ButtonArray2 implements ActionListener {
             jta_display.append(input + ":" + account() + "\n");
             jtf_input.setText("");
         }
-    }
-
-    private String account() {
-        return null;
     }
 
 }
