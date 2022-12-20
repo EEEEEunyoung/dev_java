@@ -86,7 +86,7 @@ public class ButtonArray2 implements ActionListener {
         Object obj = e.getSource();
         // 너 새게임 할려고?
         if (jbtns[0] == obj) {
-            jta_display.append(":스페이드::스페이드::스페이드:새게임을 시작합니다.:스페이드::스페이드::스페이드: \n");
+            jta_display.append(":▶▶▶새게임을 시작합니다◀◀◀ \n");
         }
         // 너 정답 볼래?
         else if (jbtns[1] == obj) {
@@ -111,4 +111,5 @@ public class ButtonArray2 implements ActionListener {
         }
     }
 
+    return null;
 }

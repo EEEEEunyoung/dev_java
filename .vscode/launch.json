@@ -6,6 +6,167 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch DeptVOMain",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.DeptVOMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch CarVOMain",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.CarVOMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch VectorCRUD",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.VectorCRUD",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch List2",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.List2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch List1",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.List1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Button1Main",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Button1Main",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch P2",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.P2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch GuGuDan",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.GuGuDan",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch JTable7Dialog",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.JTable7Dialog",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeptTable7",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.DeptTable7",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Button1Main",
+      "request": "launch",
+      "mainClass": "dev_java.week4.Button1Main",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch P3",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.P3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Vector2",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.Vector2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Vector1",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.Vector1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeptTable3",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.DeptTable3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeptTable2",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.DeptTable2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeptTable1",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.DeptTable1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch P1",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.P1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringCopy",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.StringCopy",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayCopy1",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.ArrayCopy1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch AMain",
+      "request": "launch",
+      "mainClass": "dev_java.week3.AMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch AddressBook",
+      "request": "launch",
+      "mainClass": "dev_java.week3.AddressBook",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch JButtonMain",
+      "request": "launch",
+      "mainClass": "dev_java.week3.JButtonMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch pppp6",
       "request": "launch",
       "mainClass": "dev_java.pppp.pppp6",

@@ -33,4 +33,8 @@ public class Scanner {
   public int nextInt(InputStream in) {
     return 0;
   }
+
+  public int nextInt() {
+    return 0;
+  }
 }

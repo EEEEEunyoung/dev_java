@@ -18,6 +18,7 @@ public class pppp6 {
       System.out.println("숫자추측하기");
       s.nextInt(System.in);
 
+      int my;
       if (my > a) {
         System.out.println("높다");
         continue;
