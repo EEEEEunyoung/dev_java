@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Cal3",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Cal3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch VectorCRUD2",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.VectorCRUD2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Cal2",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Cal2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Exam1_3",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Exam1_3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Exam1_2",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Exam1_2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Exam1_1",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Exam1_1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Cal",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Cal",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Exam2",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Exam2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Run",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Run",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch DeptVOMain",
       "request": "launch",
       "mainClass": "dev_java.week3.tables.week4.DeptVOMain",
