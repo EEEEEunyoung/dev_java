@@ -30,7 +30,7 @@ public class Cal2 extends JFrame implements ActionListener {
     setVisible(true);
     setTitle("내가만든계산기");
     setDefaultCloseOperation(EXIT_ON_CLOSE);
-    setSize(300, 375);
+    setSize(530, 630);
     setResizable(true);
     // 창
     setLayout(null);
@@ -56,10 +56,10 @@ public class Cal2 extends JFrame implements ActionListener {
       }// switch
       panel.add(btns[i]);
       panel.setLayout(new GridLayout(4, 4, 4, 4));
-      panel.setBounds(8, 90, 270, 235);
+      panel.setBounds(8, 90, 500, 500);
     } // for
     text.setVisible(true);
-    text.setBounds(8, 10, 270, 80);
+    text.setBounds(8, 10, 500, 80);
     add(panel);
     text.addActionListener(this);
   } // public Cal2
@@ -67,7 +67,8 @@ public class Cal2 extends JFrame implements ActionListener {
   @Override
   public void actionPerformed(ActionEvent e) {
     Object input = e.getActionCommand();
-    if (input.equals("7")) {
+
+    if (e.getSource() == btns[4]) {
       text.setText("7");
     } else if (input.equals("8")) {
       text.setText("8");
@@ -87,6 +88,8 @@ public class Cal2 extends JFrame implements ActionListener {
       text.setText("6");
     } else if (input.equals("0")) {
       text.setText("0");
+    } else if (e.getSource() == btns[3]) {
+      processOperator("+");
     } else if (input.equals("C")) {
       num = "";
       first_num = "";

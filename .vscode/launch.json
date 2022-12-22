@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch VectorCRUD3",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.VectorCRUD3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayCopy11",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.ArrayCopy11",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Mother",
+      "request": "launch",
+      "mainClass": "dev_java.week3.tables.week4.Mother",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch Cal3",
       "request": "launch",
       "mainClass": "dev_java.week3.tables.week4.Cal3",

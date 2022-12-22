@@ -2,6 +2,7 @@ package dev_java.week3.tables.week4;
 
 import java.util.Scanner;
 
+//절차적 사고 - 스토리텔링 - 소통 - 파라미터와 리턴타입
 /*클래스에 기능은 하나만... */
 class Exam2 {
   public void methodA(){

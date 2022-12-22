@@ -61,6 +61,7 @@ public class DeptTable3 extends JFrame implements ActionListener {// DeptTable1 
   // 화면그리기
   public void initDisplay() {
     jbtn_sel.addActionListener(this);
+    jbtn_del.addActionListener(this);
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     jp_north.setLayout(new FlowLayout(FlowLayout.RIGHT));
     jbtn_sel.setBackground(new Color(158, 9, 9));
@@ -90,7 +91,12 @@ public class DeptTable3 extends JFrame implements ActionListener {// DeptTable1 
   @Override
   public void actionPerformed(ActionEvent e) {
     Object obj = e.getSource();
-    if (obj == jbtn_sel) {// 너 조회버튼 누른거야?
+    if (obj == jbtn_del) {
+      int index = jtb_dept.getSelectedRow();
+      System.out.println(index);
+      Integer deptno = Integer.parseInt((String) dtm_dept.getValueAt(index, 0));
+      System.out.println(deptno);
+    } else if (obj == jbtn_sel) {// 너 조회버튼 누른거야?
       for (int x = 0; x < depts.length; x++) {
         Vector<String> oneRow = new Vector<>();
         oneRow.add(depts[x][0]);
@@ -101,11 +107,12 @@ public class DeptTable3 extends JFrame implements ActionListener {// DeptTable1 
       for (int i = 0; i < depts.length; i++) {
         for (int j = 0; j < depts[i].length; j++) {
           // System.out.print(depts[i][j] + " ");// ln을 빼서 3개출력하고 줄바꿈처리
-          // System.out.println(dtm_dept.getValueAt(i, j));
+          dtm_dept.setValueAt("여기", 1, 1);
+          System.out.println(dtm_dept.getValueAt(i, j));
         } // end of inner for
         System.out.println();
       } //// end of outter for
-      // DefaultTableModel에 데이터 초기화 하기
+        // DefaultTableModel에 데이터 초기화 하기
     } /////// end of 조회 이벤트 끝
   }
 }
