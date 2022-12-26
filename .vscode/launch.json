@@ -6,6 +6,125 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch TalkClient",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.TalkClient",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkServer",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.TalkServer",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Project",
+      "request": "launch",
+      "mainClass": "dev_java.thread1.Project",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Poly",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.D221226.Poly",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch JFrameTimerClose",
+      "request": "launch",
+      "mainClass": "dev_java.thread1.JFrameTimerClose",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.design.Test",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Duck",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.design.Duck",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MallardDuck",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.design.MallardDuck",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch JDBCTest",
+      "request": "launch",
+      "mainClass": "dev_java.oracle.JDBCTest",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch P3",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.P3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Client_GUI",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.Client_GUI",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Server_GUI",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.Server_GUI",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkClient",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.TalkClient",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Server",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.Server",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Login",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.Login",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ClientMainForm",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.ClientMainForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkServer",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.TalkServer",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch VectorCRUD3",
       "request": "launch",
       "mainClass": "dev_java.week3.tables.week4.VectorCRUD3",

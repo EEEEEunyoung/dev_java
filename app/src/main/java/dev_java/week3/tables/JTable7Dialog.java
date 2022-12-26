@@ -9,9 +9,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
+import dev_java.week4.DeptVO;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import dev_java.week3.tables.week4.DeptVO;
 
 //JDialog도 디폴트가 BorderLayout임 - jp_center 를 중앙배치
 public class JTable7Dialog extends JDialog implements ActionListener {
