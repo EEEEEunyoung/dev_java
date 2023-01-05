@@ -6,6 +6,496 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ZipCodeSearchView",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.ZipCodeSearchView",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch NaverConnect",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.NaverConnect",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch FriendProfilecopy",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.FriendProfilecopy",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChatServer",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.chat.ChatServer",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch FontTestFrame",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.FontTestFrame",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch First",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.First",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SettingForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.SettingForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkTalkTalk",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.TalkTalkTalk",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkMaincopy2",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.TalkMaincopy2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkMaincopy",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.TalkMaincopy",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch FriendList",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.FriendList",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkMain",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.TalkMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SearchMainForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.SearchMainForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoginForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.LoginForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SettingForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.SettingForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.MainForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChatServer",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.ChatServer",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChatClient",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.ChatClient",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoginForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.LoginForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SuperMain",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.SuperMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ZipCodeSearch",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.ZipCodeSearch",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiPanel",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.MultiPanel",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MapTest2",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.MapTest2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MapTest1",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.MapTest1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test2",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week5.exam1.Test2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week5.exam1.Test",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch IOExam",
+      "request": "launch",
+      "mainClass": "week5.exam1.IOExam",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExamIO",
+      "request": "launch",
+      "mainClass": "week5.exam1.ExamIO",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExamIOServer",
+      "request": "launch",
+      "mainClass": "week5.exam1.ExamIOServer",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Exam1",
+      "request": "launch",
+      "mainClass": "week5.exam1.Exam1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExamClient",
+      "request": "launch",
+      "mainClass": "week5.exam1.ExamClient",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SearchMainForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.SearchMainForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MapTest3",
+      "request": "launch",
+      "mainClass": "dev_java.oracle.MapTest3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Naver2222",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.Naver2222",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Naver11",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.Naver11",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch NaverCrawlerMain",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.NaverCrawlerMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MapTest2",
+      "request": "launch",
+      "mainClass": "dev_java.oracle.MapTest2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MapTest1",
+      "request": "launch",
+      "mainClass": "dev_java.oracle.MapTest1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeptList",
+      "request": "launch",
+      "mainClass": "dev_java.oracle.DeptList",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ListExam1",
+      "request": "launch",
+      "mainClass": "dev_java.oracle.ListExam1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch JDBCTest2",
+      "request": "launch",
+      "mainClass": "dev_java.oracle.JDBCTest2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch DBConnectionMgr",
+      "request": "launch",
+      "mainClass": "dev_java.oracle.util.DBConnectionMgr",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SearchPanel2",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.SearchPanel2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SearchPanel1",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.SearchPanel1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SearchForm2",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.SearchForm2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SettingForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.SettingForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SearchForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.SearchForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainFormcopy",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.MainFormcopy",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.MainForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoginForm",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.LoginForm",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch JDBCTest",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.JDBCTest",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeamonThreadTest",
+      "request": "launch",
+      "mainClass": "week5.DeamonThreadTest",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MyB",
+      "request": "launch",
+      "mainClass": "week5.MyB",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SubNSubMain",
+      "request": "launch",
+      "mainClass": "week5.SubNSubMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inet2",
+      "request": "launch",
+      "mainClass": "dev_java.pppp.Inet2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inet",
+      "request": "launch",
+      "mainClass": "dev_java.pppp.Inet",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MySonata",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.MySonata",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch BananaServer3",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.BananaServer3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch BananaServer2",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.BananaServer2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ServerTest",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.ServerTest",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch KiwiServer",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.KiwiServer",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch BananaServer",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.BananaServer",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainThread1_1",
+      "request": "launch",
+      "mainClass": "week5.MainThread1_1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkServer2",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.TalkServer2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch FileExample",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.FileExample",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch JoinView",
+      "request": "launch",
+      "mainClass": "dev_java.Server.network.Chatting.network3.JoinView",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch GetSetThread",
+      "request": "launch",
+      "mainClass": "dev_java.P1.D221226.GetSetThread",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Thread2",
+      "request": "launch",
+      "mainClass": "dev_java.P1.D221226.Thread2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Thread1",
+      "request": "launch",
+      "mainClass": "dev_java.P1.D221226.Thread1",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch TalkClient",
       "request": "launch",
       "mainClass": "dev_java.Server.network.Chatting.network3.TalkClient",
