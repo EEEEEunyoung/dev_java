@@ -29,8 +29,8 @@ public class Server {
 
     } // TRY
     catch (UnknownHostException e) {
+      ss.close();
     } // CATCH
-    s.closed();
 
   }
 }

@@ -1,4 +1,4 @@
-package cocoatalk.chat;
+package dev_java.Semi.login.chat;
 
 public class Protocol {
   public static final int TALK_IN = 100;

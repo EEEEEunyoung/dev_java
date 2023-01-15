@@ -1,4 +1,4 @@
-package cocoatalk.chat;
+package dev_java.Semi.login.chat;
 
 public class ChatClientThread extends Thread {
 

@@ -6,6 +6,146 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Cal2",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week4.Cal2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Cal3",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week4.Cal3",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Cal",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week4.Cal",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch jan",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.pppp.Eunyoung.jan",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoginPrac2",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.pppp.Eunyoung.LoginPrac2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch LoginPrac2",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.pppp.LoginPrac2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch EmpList",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.oracle.util.EmpList",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChatDao",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.oracle.util.ChatDao",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChatClient2",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.chat.ChatClient2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChatClient",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.chat.ChatClient",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Steacher_login",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.P1.pppppppppp.Steacher_login",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch MemberShip",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.MemberShip",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Membership",
+      "request": "launch",
+      "mainClass": "dev_java.SeungSuSsameSueop.week6.Membership",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch RegisterCopy",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.RegisterCopy",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch loginPrac",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.pppp.loginPrac",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ThreadNameExample",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.pppp.ThreadNameExample",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch SettingForm2",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.login.oracle.login.SettingForm2",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch TalkMain",
+      "request": "launch",
+      "mainClass": "dev_java.Semi.TalkMain",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ClientExample",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.pppp.ClientExample",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch ServerExample",
+      "request": "launch",
+      "mainClass": "dev_java.EunYoung.pppp.ServerExample",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch ZipCodeSearchView",
       "request": "launch",
       "mainClass": "dev_java.SeungSuSsameSueop.week6.ZipCodeSearchView",

@@ -1,17 +1,29 @@
 package dev_java.SeungSuSsameSueop.oracle.util;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import javax.naming.spi.DirStateFactory.Result;
-
 public class DBConnectionMgr {
   public static final String _DRIVER = "oracle.jdbc.driver.OracleDriver";
-  public static final String _URL = "jdbc:oracle:thin:@192.168.10.88:1521:orcl11";
-  public static String _USER = "scott";
+  public static final String _URL = "jdbc:oracle:thin:@192.168.10.77:1521:orcl11";
+  public static String _USER = "kiwi";
   public static String _PW = "tiger";
+
+  public DBConnectionMgr() {
+  }
+
+  // 파라미터가 있는 생성자가 하나라도 있으면 디폴트 생성자 제공안됨
+  public DBConnectionMgr(String ID, String PW) {
+    // static으로 선언된 변수는 this나 super 같은 예약어 사용불가
+    // this 대한 어려움으로 리액트 훅(함수형 프로그래밍, 자바:람다식, 익명클래스, 내부클래스 컨벤션동일)새로
+    // 웹브라우저에서는 this가 왜 문제인가? - 캡쳐링, 버블링 효과
+    _USER = ID;
+    _PW = PW;
+
+  }
 
   public Connection getConnection() {
     Connection con = null;
@@ -23,8 +35,25 @@ public class DBConnectionMgr {
     } catch (Exception e) { // 멀티 블럭 작성시, 더 넓은 클래스가 뒤에 와야함 가장 바깥쪽에 적어 주기
       System.out.println("오라클 서버와 커넥션 실패!");
     }
+
     return con;
   }
+
+  public Connection getConnection(String user, String pw) {
+    _USER = user;
+    _PW = pw;
+    Connection con = null;
+    try {
+      Class.forName(_DRIVER);
+      con = DriverManager.getConnection(_URL, _USER, _PW);
+    } catch (ClassNotFoundException ce) {
+      System.out.println("드라이버 클래스를 찾을 수 없습니다.");
+    } catch (Exception e) {// 멀티 블럭 작성시 더 넓은 클래스가 뒤에 와야함
+      System.out.println("오라클 서버와 커넥션 실패");
+    }
+    return con;
+  }
+
   // 사용한 자원을 반납하는 코드는 명시적으로 하는 것을 원칙으로 하고 있음
   // 반납하는 순서는 생성된 역순으로 진행할 것. - 자바튜닝팀 지적사항
 
@@ -56,6 +85,22 @@ public class DBConnectionMgr {
     if (stmt != null) {
       try {
         stmt.close();
+      } catch (Exception e) {
+      } // catch
+    } // if
+    if (con != null) {
+      try {
+        con.close();
+      } catch (Exception e) {
+      } // catch
+    } // if
+
+  } // freeConnection
+
+  public void freeConnection(Connection con, CallableStatement cstmt, ResultSet rs) {
+    if (cstmt != null) {
+      try {
+        cstmt.close();
       } catch (Exception e) {
       } // catch
     } // if

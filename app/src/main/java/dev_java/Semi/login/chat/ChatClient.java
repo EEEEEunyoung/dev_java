@@ -1,4 +1,4 @@
-package cocoatalk.chat;
+package dev_java.Semi.login.chat;
 
 import java.awt.BorderLayout;
 import java.awt.Graphics;

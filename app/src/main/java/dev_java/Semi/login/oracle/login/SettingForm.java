@@ -21,7 +21,7 @@ public class SettingForm extends JFrame implements ActionListener {
   // 폰트 폰트
   Font f1 = new Font("고딕체", Font.PLAIN, 20);
   Font f2 = new Font("궁서", Font.PLAIN, 20);
-  Font f3 = new Font("굴림", Font.PLAIN, 20);
+  Font f3 = new Font("굴림", Font.PLAIN, 10);
 
   // 환경설정버튼
   JButton jbtn_a = new JButton("배 경 화 면"); // (new ImageIcon(imgPath + "backBtn.png"));// 배경화면 버튼
@@ -126,7 +126,6 @@ public class SettingForm extends JFrame implements ActionListener {
         JOptionPane.QUESTION_MESSAGE,
         null, font1, font1[0]);
     if (fonttype.equals(font1[0])) {
-      initDisplay();
       jbtn_a.setFont(f2);
       jbtn_b.setFont(f2);
       jbtn_c.setFont(f2);
@@ -210,7 +209,7 @@ public class SettingForm extends JFrame implements ActionListener {
       this.dispose();
 
     } else if (obj == jbtn_b) { // 폰트설정
-      // settingForm.initDisplay();
+      settingForm.initDisplay();
       settingForm.fontchange();
       this.dispose();
 
