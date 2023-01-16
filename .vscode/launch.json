@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch StudentManager",
+      "request": "launch",
+      "mainClass": "dev_java.week7.basic3.studentVC.StudentManager",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "Launch BookManager",
+      "request": "launch",
+      "mainClass": "dev_java.week7.basic3.bookMVC.BookManager",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Launch Cal2",
       "request": "launch",
       "mainClass": "dev_java.SeungSuSsameSueop.week4.Cal2",

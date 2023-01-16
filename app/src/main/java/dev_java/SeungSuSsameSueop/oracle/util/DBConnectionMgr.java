@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 public class DBConnectionMgr {
   public static final String _DRIVER = "oracle.jdbc.driver.OracleDriver";
   public static final String _URL = "jdbc:oracle:thin:@192.168.10.77:1521:orcl11";
-  public static String _USER = "kiwi";
+  public static String _USER = "scott";
   public static String _PW = "tiger";
 
   public DBConnectionMgr() {
